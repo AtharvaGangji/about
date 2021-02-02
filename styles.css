@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+
+body {
+  font-family: 'Josefin Sans', sans-serif;
+  text-align: center;
+  font-size : 55px;
+
+
+  background-image: url(https://images.squarespace-cdn.com/content/v1/5b4bb4b3710699a35f966573/1532393323738-KWGBJDTJ1NBBPK9VAXUM/ke17ZwdGBToddI8pDm48kHM888A2cEOL-16x2Y7wW2UUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKc4SyOWdtRwa1cJTKw8B0-vtPvuM1kELAijj7Lz6A3Vl4q_vViavB6Cs1l3hifcxs0/LghtBlue-BG.jpg?format=2500w );
+  background-size: auto;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
