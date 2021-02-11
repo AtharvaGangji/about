@@ -1,17 +1,115 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@200&display=swap');
+
 
 
 body {
   font-family: 'IBM Plex Mono', monospace;
   text-align: center;
-  font-size : 55px;
+  font-size : 45px;
 
 
-  background-image: url(https://i.pinimg.com/originals/3e/ed/a1/3eeda1b9220917e74e36cc47d7291e44.jpg);
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAARMAAAC3CAMAAAAGjUrGAAAAA1BMVEX///+nxBvIAAAAR0lEQVR4nO3BAQ0AAADCoPdPbQ8HFAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPBgxUwAAU+n3sIAAAAASUVORK5CYII=);
   background-size: auto;
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
+
+
+html {
+    padding-right:100px;
+    padding-left:100px;
+}
+
+.name {
+    float:left;
+    padding-left:180px;
+    font-weight: 100;
+}
+
+.my-image {
+    margin-top:50px;
+    border-radius:10px;
+
+}
+
+.small-text {
+  font-weight: 550;
+  color:grey;
+
+}
+
+
+/* ----------------------------------------------- navbar ----------------------------------------------- */
+
+
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  font-size : 20px;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+
+
+
+
+.navbar {
+  font-family: 'IBM Plex Mono', monospace;
+}
+
+
+.home-nav {
+  background-color : #ff8c00
+}
+
+.home-nav:hover {
+  background-color : #ffa500
+}
+
+.second-nav:hover {
+  background-color: #111;
+}
+
+
+.learn-more-safety:hover {
+  color:#4c4cff
+}
+
+/* ----------------------------------------------- line break 1 ----------------------------------------------- */
+
+.intrested {
+    font-size:25px;
+}
+
+
+
+/* ----------------------------------------------- social media icons ------------------------------------------ */
+
+
+a {
+    text-decoration:none;
+}
+
+img {
+    border-radius:10px;
 }
